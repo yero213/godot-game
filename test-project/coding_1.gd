@@ -1,5 +1,8 @@
 extends Node2D
 
+var a = 20
+var b = 10
+
 func _ready():
 	#exercise
-	print(sqrt(10**2 + 20**2))
+	print(sqrt(b**2 + a**2))
